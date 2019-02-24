@@ -1,0 +1,19 @@
+---
+layout: default
+title: Projects
+---
+
+<div class="posts">
+  {% for project in site.projects %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ project.url }}">
+        {{ project.name }}
+      </a>
+    </h1>
+
+    <time datetime="{{ project.date | date_to_xmlschema }}" class="post-date">{{ project.date | date: "%Y" }}</time>
+    {{ project.content | strip_html | truncatewords: 30 }}
+  </article>
+  {% endfor %}
+</div>
