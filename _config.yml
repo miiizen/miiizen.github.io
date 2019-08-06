@@ -6,8 +6,10 @@ title:               James Mizen
 tagline:             Computer science student
 url:                 http://miiizen.github.io
 paginate:            5
-paginate_path: "/blog/page:num/"
+paginate_path:       "/blog/page:num/"
 baseurl:             ""
+
+google_verify: btpsS4yph70BxXmVwumLM2YpbljudFK8cLyGKOemNGw
 
 # Assets
 #
@@ -25,6 +27,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+
 
 # deployment
 host: 0.0.0.0
