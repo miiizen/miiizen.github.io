@@ -3,4 +3,6 @@ layout: page
 title: About
 ---
 
-Computer science student with a growing interest in programming languages and compilers.
+A place to put mostly technical projects and writings, with perhaps the odd piece of musical content.
+
+[github.com/miiizen](github.com/miiizen)
