@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               James Mizen
-tagline:             Blog and projects 
+tagline:             Music et cetera
 url:                 http://miiizen.github.io
 paginate:            5
 paginate_path:       "/blog/page:num/"
