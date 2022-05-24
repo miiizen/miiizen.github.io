@@ -27,6 +27,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  music:
+    output: true
+    permalink: /:collection/:title/
 
 
 # deployment
