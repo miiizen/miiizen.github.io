@@ -1,7 +1,9 @@
 ---
-name: The Goddess of the Moon
+name: The Goddess Of the Moon
 link: 
 score: 
+length: 1'
+ensemble: piano & alto saxophone with electronics
 date: 2020-02-10
 layout: piece
 ---

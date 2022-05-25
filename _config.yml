@@ -9,8 +9,6 @@ paginate:            5
 paginate_path:       "/blog/page:num/"
 baseurl:             ""
 
-google_verify: btpsS4yph70BxXmVwumLM2YpbljudFK8cLyGKOemNGw
-
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
@@ -25,9 +23,11 @@ author:
 
 collections:
   projects:
+    sort_by: date
     output: true
     permalink: /:collection/:title/
   music:
+    sort_by: date
     output: true
     permalink: /:collection/:title/
 

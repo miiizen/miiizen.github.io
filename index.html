@@ -12,7 +12,9 @@ title: Home
       </a>
     </h1>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    <p class="meta-data">
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    </p>
     {{ post.content | strip_html | truncatewords: 30 }}
   </article>
   {% endfor %}
