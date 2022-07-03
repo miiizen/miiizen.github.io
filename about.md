@@ -3,6 +3,6 @@ layout: page
 title: About
 ---
 
-Music student and 
+Music student etc.
 
 [github.com/miiizen](github.com/miiizen)
