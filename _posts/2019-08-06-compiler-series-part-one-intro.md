@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Compiler Series Part 1: Introduction"
+tags: compsci compiler
 ---
 Programming was my first foray into computer science, and recently I wanted to dig into this topic in more detail.  The posts which follow will be a collection of my notes, made while writing my own compiler in C++.
 

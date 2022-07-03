@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Compiler Series Part 3: rustc"
+tags: compsci compiler
 ---
 
 This post will be another fly by look at a production compiler, this time for the Rust language.  

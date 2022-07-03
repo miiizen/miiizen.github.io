@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="tags">
+  <span>Browse tags:</span>
+  {% for sitetag in site.tags %}
+      {% if sitetag[0] == page.tag %}
+      <span>{{ sitetag[0] }}</span>
+      {% else %}
+      <a href="/tag/{{ sitetag[0] | slugify }}">{{ sitetag[0] }}</a>
+      {% endif %}
+  {% endfor %}
+</div>
+
+<div class="posts">
+    {% for post in site.tags[page.tag] %}
+    <article class="post">
+      <h2 class="post-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h2>
+  
+      <p class="meta-data">
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+      </p>
+      {{ post.content | strip_html | truncatewords: 30 }}
+    </article>
+    {% endfor %}
+  </div>
+  
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&#8592;</a>
+    {% else %}
+      <span class="pagination-item newer">&#8592;</span>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&#8594;</a>
+    {% else %}
+      <span class="pagination-item older">&#8594;</span>
+    {% endif %}
+  </div>

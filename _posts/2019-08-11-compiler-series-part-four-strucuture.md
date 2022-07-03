@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Compiler Series Part 4: Designing the SIMPLE language and compiler"
+tags: compsci compiler
 ---
 
 I've chosen to call the language I've designed for the compiler SIMPLE for fairly self evident reasons.  This language is Turing complete as it features conditional statements and variables.

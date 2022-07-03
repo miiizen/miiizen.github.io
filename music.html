@@ -7,11 +7,11 @@ title: Music
   {% assign pieces = site.music %}
   {% for piece in pieces reversed %}
   <article class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ piece.url }}">
         {{ piece.name }}
       </a>
-    </h1>
+    </h2>
 
     <p class="meta-data"><time datetime="{{ piece.date | date_to_xmlschema }}">{{ piece.date | date: "%Y" }}</time> <br> <em>{{ piece.length }}</em> &bull; <span>For {{ piece.ensemble }}</span></p>
     {{ piece.content | strip_html | truncatewords: 30 }}

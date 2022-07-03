@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Compiler Series Part 5: Lexical analysis"
+tags: compsci compiler
 ---
 From this post onwards, I will be explaining sections from my compiler and the thoughts gone into designing them.  I will link to the relevant files in my compiler's repository found [here](https://github.com/miiizen/compiler).
 

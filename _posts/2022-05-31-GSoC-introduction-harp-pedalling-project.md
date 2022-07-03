@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GSoC 2022 - Harp pedalling diagrams"
+tags: gsoc music
 ---
 Hello everyone, my name is James and I’ve been fortunate enough to have been chosen to take on one of this year’s projects for Google Summer of Code. I’ll be working on adding a well integrated method of adding and editing harp pedalling diagrams to scores. Harps have seven foot pedals that are used to sharpen or flatten certain strings. The pedalling diagram tells the harpist which pedals they need to press to get the correct pitches for the current passage of music. These diagrams deserve to be a first-class supported feature of MuseScore, instead of being hidden away as a plugin as they so often are in scoring programs. Below is a picture of a diagram, and beneath that an example of its use in a score.
 

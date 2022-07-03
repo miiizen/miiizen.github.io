@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Compiler Series Part 2: GCC"
+tags: compsci compiler
 ---
 
 [GCC](https://gcc.gnu.org/), originally written for the GNU operating system is a set of front ends, libraries and back ends for a few different programming languages.  This is an old piece of software, but is kept up to date and used regularly by many.  The compiler has front ends for (can compile) C/C++, Objective C, Fortran, Ada and Go.  
