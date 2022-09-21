@@ -1,5 +1,5 @@
 ---
-name: The SIMPLE compiler
+title: The SIMPLE compiler
 link: http://github.com/miiizen/compiler
 date: 2018-08-01
 layout: project

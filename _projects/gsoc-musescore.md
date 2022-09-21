@@ -1,5 +1,5 @@
 ---
-name: GSoC 2022 with MuseScore - Harp Pedalling Diagrams
+title: GSoC 2022 with MuseScore - Harp Pedalling Diagrams
 link: https://github.com/musescore/MuseScore/pull/12269
 date: 2022-09-12
 layout: project

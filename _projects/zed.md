@@ -1,5 +1,5 @@
 ---
-name: Zed magazine
+title: Zed magazine
 link: http://zed-mag.uk
 date: 2017-09-01
 layout: project
