@@ -7,11 +7,11 @@ title: Projects
   {% assign projects = site.projects %}
   {% for project in projects reversed %}
   <article class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ project.url }}">
-        {{ project.name }}
+        {{ project.title }}
       </a>
-    </h1>
+    </h2>
 
     <p class="meta-data"><time datetime="{{ project.date | date_to_xmlschema }}" class="post-date">{{ project.date | date: "%Y" }}</time></p>
     {{ project.content | strip_html | truncatewords: 30 }}
