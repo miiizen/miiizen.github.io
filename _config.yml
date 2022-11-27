@@ -40,3 +40,4 @@ port: 4000
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
