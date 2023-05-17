@@ -2,15 +2,17 @@
 layout: default
 ---
 
-<div class="tags">
+<div class="tags nav-container">
   <span>Browse tags:</span>
-  {% for sitetag in site.tags %}
-      {% if sitetag[0] == page.tag %}
-      <span>{{ sitetag[0] }}</span>
-      {% else %}
-      <a href="/tag/{{ sitetag[0] | slugify }}">{{ sitetag[0] }}</a>
-      {% endif %}
-  {% endfor %}
+  <ul>
+    {% for sitetag in site.tags %}
+    {% if sitetag[0] == page.tag %}
+    <li><span>{{ sitetag[0] }}</span></li>
+    {% else %}
+    <li><a href="/tag/{{ sitetag[0] | slugify }}">{{ sitetag[0] }}</a></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
 </div>
 
 <div class="posts">

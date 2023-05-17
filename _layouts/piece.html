@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <h1 class="post-title">{{ page.name }}</h1>
   <p class="meta-data"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time> <br> <em>{{ page.length }}</em> &bull; <span>For {{ page.ensemble }}</span></p>
   <a href="{{ page.link }}">{{ page.link }}</a>
   {{ content }}
