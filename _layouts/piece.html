@@ -7,6 +7,8 @@ layout: default
   <p class="meta-data"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time> <br> <em>{{ page.length }}</em> &bull; <span>For {{ page.ensemble }}</span></p>
   <a href="{{ page.link }}">{{ page.link }}</a>
   {{ content }}
+  {% if page.link != "" %}
   <div style="height: 228px; width: 204px;"><iframe src="{{ page.link }}"
     style="display:block; border-radius: 6px; border: none; height: 204px; width: 204px;"></iframe><a href='https://audio.com/jamesmmizen' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jamesmmizen</a></div>
-</article>
+  {% endif %}
+  </article>

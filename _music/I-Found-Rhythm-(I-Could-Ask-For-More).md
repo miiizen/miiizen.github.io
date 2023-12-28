@@ -1,7 +1,7 @@
 ---
 name: I Found Rhythm (I could ask for more)
 link: 
-score: 
+score: assets/scores/I Found Rhythm.pdf
 length: 7'30"
 ensemble: chamber ensemble
 date: 2023-05-16

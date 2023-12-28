@@ -1,6 +1,6 @@
 ---
 name: And Then We Saw the Daughter of the Minotaur
-link: 
+link: assets/scores/And Then We Saw the Daughter of the Minotaur.pdf
 score: 
 length: 7'
 ensemble: chamber ensemble 

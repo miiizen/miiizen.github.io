@@ -1,7 +1,7 @@
 ---
 name: Tolling the Devil's Knell
 link: 
-score: 
+score: assets/scores/Tolling the Devil's Knell.pdf
 length: 4'30"
 ensemble: violin & piano
 date: 2022-12-10
