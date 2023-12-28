@@ -1,6 +1,6 @@
 ---
 name: GREED
-link: 
+link: https://audio.com/embed/audio/1786549659059260?theme=image
 score: assets/scores/GREED.pdf
 length: 3'10"
 ensemble: chamber ensemble
