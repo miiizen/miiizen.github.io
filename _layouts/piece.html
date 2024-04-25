@@ -5,7 +5,6 @@ layout: default
 <article class="post">
   <h1 class="post-title">{{ page.name }}</h1>
   <p class="meta-data"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time> <br> <em>{{ page.length }}</em> &bull; <span>For {{ page.ensemble }}</span></p>
-  <a href="{{ page.link }}">{{ page.link }}</a>
   {{ content }}
   {% if page.link and page.link != "" %}
   <div style="height: 228px; width: 204px;"><iframe src="{{ page.link }}"
