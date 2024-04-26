@@ -3,13 +3,15 @@ layout: default
 title: Home
 ---
 
-<div class="tags nav-container">
-  <span>Filter:</span>
-  <ul>
-    {% for tag in site.tags %}
-    <li><a href="/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="tags">
+  <span class="filter"><i>Filter</i></span>
+  <div class="slide-in">
+    <ul>
+      {% for tag in site.tags %}
+      <li><a href="/tag/{{ tag[0] | slugify }}"><i>{{ tag[0] }}</i></a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 
 <div class="posts">

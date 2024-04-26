@@ -76,3 +76,58 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
+
+.tags {
+  overflow: auto;
+
+  span {
+    float: left;
+    display: inline;
+  }
+
+  a, li {
+    float: left;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 0 1rem 0 1rem;
+    
+    &:first-child {
+      padding-left: 0.5rem;
+      margin-left: 0.5rem;
+      border-left: 1px solid $gray-2;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in {
+  opacity: 0;
+}
+
+.tags:hover .slide-in,
+.tags:focus .slide-in,
+.tags:focus-within .slide-in {
+  animation: fade-in-right ease 0.2s forwards; 
+}
