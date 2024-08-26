@@ -3,43 +3,8 @@ layout: default
 title: Home
 ---
 
-<div class="tags">
-  <span class="filter"><i>Filter</i></span>
-  <div class="slide-in">
-    <ul>
-      {% for tag in site.tags %}
-      <li><a href="/tag/{{ tag[0] | slugify }}"><i>{{ tag[0] }}</i></a></li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h2 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
+<p>Composer and engraving developer at MuseScore.</p>
 
-    <p class="meta-data">
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-    </p>
-    {{ post.content | strip_html | truncatewords: 30 }}
-  </article>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&#8592;</a>
-  {% else %}
-    <span class="pagination-item newer">&#8592;</span>
-  {% endif %}
-  {% if paginator.next_page %}
-  <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&#8594;</a>
-  {% else %}
-    <span class="pagination-item older">&#8594;</span>
-  {% endif %}
-</div>
+<a href="https://www.github.com/miiizen">GitHub</a>
+<br/><br/>
